@@ -9,7 +9,7 @@ module.exports = {
   ** Headers of the page
   
   */
-  head: {
+  head: { 
     title: 'Frases y palabras, BONITAS, hermosas. WOW para entrar YA',
     meta: [
       {charset: 'utf-8' },
@@ -23,16 +23,14 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' }
     ],
-    script: [
-      {src:'https://www.googletagmanager.com/gtag/js?id=UA-122100902-2'},
-      {src:'https://cdn.popcash.net/pop.js'},
-      { innerHTML: "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-122100902-2');", type: 'text/javascript' },
-      { innerHTML: "var uid = '212131'; , var wid = '445956'; ", type: 'text/javascript' },
-    ],
+    // script: [
+    //   {src:'https://www.googletagmanager.com/gtag/js?id=UA-122100902-2' ,  innerHTML: 'window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag(" js ", new Date()); gtag(" config ", " UA-122100902-2 ");', type: 'text/javascript' },
+    //   {},
+    // ],
     htmlAttrs: {
       lang:'es'
-    }
-
+    },
+    
   },
 
   /*
