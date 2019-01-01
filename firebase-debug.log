@@ -1,0 +1,78 @@
+[debug] [2019-01-01T21:40:16.384Z] ----------------------------------------------------------------------
+[debug] [2019-01-01T21:40:16.392Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Alexander\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2019-01-01T21:40:16.393Z] CLI Version:   4.2.0
+[debug] [2019-01-01T21:40:16.393Z] Platform:      win32
+[debug] [2019-01-01T21:40:16.393Z] Node Version:  v8.12.0
+[debug] [2019-01-01T21:40:16.429Z] Time:          Tue Jan 01 2019 16:40:16 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2019-01-01T21:40:16.429Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-01-01T21:40:16.673Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-01-01T21:40:16.675Z] > authorizing via signed-in user
+[debug] [2019-01-01T21:40:16.678Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-01-01T21:40:16.678Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+
+[debug] [2019-01-01T21:40:17.289Z] <<< HTTP RESPONSE 200
+[debug] [2019-01-01T21:40:17.392Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/tus-frases-bonitas  
+ 
+[debug] [2019-01-01T21:40:18.428Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'tus-frases-bonitas'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-01-01T21:40:18.445Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/tus-frases-bonitas/versions  
+
+[debug] [2019-01-01T21:40:20.517Z] <<< HTTP RESPONSE 200
+[info] i  hosting[tus-frases-bonitas]: beginning deploy...
+[info] i  hosting[tus-frases-bonitas]: found 113 files in dist
+[debug] [2019-01-01T21:40:32.411Z] [hosting] hash cache [ZGlzdA] stored for 113 files
+[debug] [2019-01-01T21:40:32.411Z] [hosting][hash queue][FINAL]
+[debug] [2019-01-01T21:40:32.412Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/tus-frases-bonitas/versions/babc3e10fc51bc4f:populateFiles  
+ <request body omitted>
+[debug] [2019-01-01T21:40:34.067Z] <<< HTTP RESPONSE 200
+[debug] [2019-01-01T21:40:34.130Z] [hosting][populate queue][FINAL]
+[debug] [2019-01-01T21:40:34.130Z] [hosting] uploads queued: 75
+[debug] [2019-01-01T21:40:44.900Z] [uploadQueue] Retrying task f818e576fb59535ecdf5e2223d7c0611b604811697873b4e16d7e628f50372d8
+[debug] [2019-01-01T21:40:45.380Z] [uploadQueue] Retrying task 7d72347481ec10330b9393474d1a9f29cb19155e7988465e01b6c14e6c636087
+[debug] [2019-01-01T21:40:45.531Z] [uploadQueue] Retrying task 0dae4fb94813701e2098080718431e876a92bcdd91f690fee8330d4fafa9a299
+[debug] [2019-01-01T21:40:54.175Z] [uploadQueue] Retrying task 0dc04a6bbd986388dd8177faf34e671ec9dbcb60e42063ae202f87d68434bcba
+[debug] [2019-01-01T21:40:54.177Z] [uploadQueue] Retrying task 1d33bf2ea1539c5f81e770ce735b1fe8f804432825d31bb61b8dad6e89f3c4a6
+[debug] [2019-01-01T21:40:55.892Z] [uploadQueue] Retrying task 3462be546f23ea79c442ebe749731f54e392a6339a6d94858752494f7a57fb72
+[debug] [2019-01-01T21:40:57.140Z] [uploadQueue] Retrying task 9aee8f63d8d67f5bfc5319266787c3b8ac33a48724467b81aec9d515e0df51b5
+[debug] [2019-01-01T21:42:15.629Z] [uploadQueue] Retrying task 1d33bf2ea1539c5f81e770ce735b1fe8f804432825d31bb61b8dad6e89f3c4a6
+[debug] [2019-01-01T21:42:32.763Z] ----------------------------------------------------------------------
+[debug] [2019-01-01T21:42:32.763Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Alexander\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2019-01-01T21:42:32.763Z] CLI Version:   4.2.0
+[debug] [2019-01-01T21:42:32.763Z] Platform:      win32
+[debug] [2019-01-01T21:42:32.763Z] Node Version:  v8.12.0
+[debug] [2019-01-01T21:42:32.763Z] Time:          Tue Jan 01 2019 16:42:32 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2019-01-01T21:42:32.763Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-01-01T21:42:32.779Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-01-01T21:42:32.779Z] > authorizing via signed-in user
+[debug] [2019-01-01T21:42:32.794Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/tus-frases-bonitas  
+ 
+[debug] [2019-01-01T21:42:33.533Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'tus-frases-bonitas'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-01-01T21:42:33.549Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/tus-frases-bonitas/versions  
+
+[debug] [2019-01-01T21:42:34.914Z] <<< HTTP RESPONSE 200
+[info] i  hosting[tus-frases-bonitas]: beginning deploy...
+[info] i  hosting[tus-frases-bonitas]: found 113 files in dist
+[debug] [2019-01-01T21:42:35.039Z] [hosting] hash cache [ZGlzdA] stored for 113 files
+[debug] [2019-01-01T21:42:35.039Z] [hosting][hash queue][FINAL]
+[debug] [2019-01-01T21:42:35.039Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/tus-frases-bonitas/versions/4a12bbf38c119607:populateFiles  
+ <request body omitted>
+[debug] [2019-01-01T21:42:37.131Z] <<< HTTP RESPONSE 200
+[debug] [2019-01-01T21:42:37.178Z] [hosting][populate queue][FINAL]
+[debug] [2019-01-01T21:42:37.178Z] [hosting] uploads queued: 57
+[debug] [2019-01-01T21:42:50.334Z] [uploadQueue] Retrying task d910c41c5b0d37bca0643794404897de9876468562595cab5a2ea7c18726e01d
+[debug] [2019-01-01T21:42:50.334Z] [uploadQueue] Retrying task 2b6fc48074a596a416ff5b5224c07bc55578b396a646edfffde3b170c5a919a7
+[debug] [2019-01-01T21:42:50.339Z] [uploadQueue] Retrying task b67b098c434ea3cb08c7a1fde744c4cc4817382836a992e3f1d290a5cd416a03
+[debug] [2019-01-01T21:42:50.357Z] [uploadQueue] Retrying task 0288a089cb8a326a79bcef9103b4a9a8b83a9e6121ae6966bebee15d6ac0e8f9
+[debug] [2019-01-01T21:42:58.461Z] [uploadQueue] Retrying task fc3cfd509e6ea2880c29497d5bd3d06a3036448ab850531da7be3591cf044bd1
+[debug] [2019-01-01T21:43:20.302Z] [uploadQueue] Retrying task fc3cfd509e6ea2880c29497d5bd3d06a3036448ab850531da7be3591cf044bd1
+[debug] [2019-01-01T21:43:50.013Z] [uploadQueue] Retrying task d25e809043d9f23d0d6cd5e6e3c2df2a1ea3577513c2cda182d6722b51fd290a
+[debug] [2019-01-01T21:44:51.337Z] [uploadQueue] Retrying task 2ecf1548b48aacc96fc5f48284092dd7365871d6fe738f172c56c06afbf429e3

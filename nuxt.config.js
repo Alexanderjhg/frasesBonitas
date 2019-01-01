@@ -10,23 +10,23 @@ module.exports = {
   
   */
   head: { 
-    title: 'Frases y palabras, BONITAS, hermosas. WOW para entrar YA',
+    title: 'Frases bonitas y palabras hermosas y lindas para 【 whatsapp 】',
     meta: [
       {charset: 'utf-8' },
       {name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {name:'google-site-verification', content:'SrSUFdHtTglhOqBwIskDEKO7uUP3DBkkHfG9u6xPdNI'},
       {name:'msvalidate.01', content:'E417579D3C3A49920ACD27DB11EDB7E5'},
       {name:"keywords", content:"Las frases bonitas son para dedicar"},
-      { hid: 'description', name: 'description', content:"LAS MEJORES frases bonitas PARA tus amigos.❤ y A TU NOVIO ✅ ❤, tambien palabras para CUANQUIER pareja,❤ ✅te encantara.✅❤" }
+      { hid: 'description', name: 'description', content:"las mejores frases bonitas hermosas y lindas para tus amigos.❤ para tu novio ✅ para whatsapp y facebook ❤, también palabras para cualquier pareja, ✅" }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' }
+      { rel: 'stylesheet', href: ' https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' }
     ],
-    // script: [
-    //   {src:'https://www.googletagmanager.com/gtag/js?id=UA-122100902-2' ,  innerHTML: 'window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag(" js ", new Date()); gtag(" config ", " UA-122100902-2 ");', type: 'text/javascript' },
-    //   {},
-    // ],
+    script: [
+      { type: ' text/javascript '  , innerHTML: 'if ( localStorage.controlcookie > 0 ){ document.getElementById( " cookie1 " ).style.display = " none " } '},
+      // {innerHTML: " if(localStorage.controlcookie>0){ document.getElementById('cookie1').style.display = 'none'; }" , type:'text/javascript'},
+    ],
     htmlAttrs: {
       lang:'es'
     },
